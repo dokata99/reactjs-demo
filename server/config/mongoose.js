@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 
 module.exports = (app) => {
-    mongoose.connect('mongodb://localhost/react-demo-laptop', {useNewUrlParser: true, useUnifiedTopology: true})
+    mongoose.connect('mongodb://localhost/react-laptop-db', {useNewUrlParser: true, useUnifiedTopology: true})
 
     const db = mongoose.connection
 
