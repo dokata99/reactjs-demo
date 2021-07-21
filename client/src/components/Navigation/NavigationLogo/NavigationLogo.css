@@ -1,0 +1,9 @@
+.logo-container{
+	flex: 1;
+    display: flex;
+
+}
+.logo{
+	font-weight: 400;
+	margin: 5px;
+}
