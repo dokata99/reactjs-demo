@@ -1,0 +1,89 @@
+.list-element{
+    background-color: #fff;
+    border: none;
+    border-radius: 0.6667em;
+    box-shadow: none;  
+    margin-bottom: 2.9em;  
+    margin-top: 1.1em;
+}
+
+.article-container{
+    position: relative;
+    vertical-align: top;
+    box-sizing: border-box;
+    flex-direction: row;
+}
+
+.ancher-tag-container{
+
+    position: relative;
+    display: block;
+    flex: 1;
+    margin-bottom: 2em;
+    margin: auto;
+    margin-bottom: 5px;
+    padding: 5px 5px 5px;
+    width: 22.7em;
+    height: 29.7em;
+    transition: transform .2s;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2), 0px 0px 25px rgba(0, 0, 0, 0.2);
+    animation: drop 0.9s ease;
+    border-radius: 0.6667em;
+
+    text-decoration: none;
+    color:#c36cbb;
+}
+
+.ancher-tag-container:hover{
+    transform: scale(1.1);
+    color: #b845ac;
+    background-color: white;
+}
+
+
+
+.img-container-products-list{
+    width: 16em;
+    height: 12.5em;
+    margin: 0 0 0 -6.66667em;
+    border-radius: 0.2em;
+    margin: auto; 
+}
+
+.h2-title{
+    min-height: 3em;
+    max-height: none;
+    margin: -0.16667em 1.11111em 0 0;
+    color: inherit;
+    font-size: 1.2em;
+    line-height: 1.5;
+    overflow: hidden;
+    font-weight: normal;
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: lighter;
+}
+
+.small-ul-container{
+    font-size: 0.96333em;
+    list-style-type: none;
+    line-height: 1.3846;
+    columns: 1 0;
+}
+
+.small-ul-container li{
+    white-space: normal;
+    max-height: 2.7692em;
+    color: #18293c;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-left: 1.5em;
+    margin-left: 0;
+    margin-bottom: 0.38462em;
+    display: list-item;
+    text-align: -webkit-match-parent;
+    font-size: 0.93333em;
+}

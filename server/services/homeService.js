@@ -1,7 +1,7 @@
 const Laptop = require('./../models/laptop')
 
 async function getAll(){
-    const laptops = await Laptop.find({brand: "Asus"}).lean()
+    const laptops = await Laptop.find().lean()
     return laptops
 }
 
