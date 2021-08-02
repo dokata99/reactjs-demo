@@ -21,7 +21,7 @@ class Products extends Component {
     }
     render() {
         return (
-            <div className="presentation">
+            <div className="presentation-products">
                 <ul className="item-list">
                     <ProductList products={this.state.products}/>
                 </ul>

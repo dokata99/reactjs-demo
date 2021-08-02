@@ -1,5 +1,6 @@
 const baseUrl = 'http://localhost:5000'
 
 export default{
-    products: `${baseUrl}/products`
+    products: `${baseUrl}/products`,
+    laptop: `${baseUrl}/details/`
 }

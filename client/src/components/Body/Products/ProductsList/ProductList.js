@@ -12,7 +12,7 @@ const ProductList = ({
                 <li className="list-element" key={laptop._id}>
                     <article className="article-container">
                         <Link className="ancher-tag-container" to={`laptop/${laptop._id}`}>
-                            <img className="img-container-products-list" src={laptop.imgUrl}/>
+                            <img className="img-container-products-list" src={laptop.imgUrl} alt={laptop.brand+' '+laptop.model}/>
                             <h2 className="h2-title">{laptop.brand} {laptop.model}</h2>
                             <ul className="small-ul-container">
                                 <li>
@@ -22,13 +22,13 @@ const ProductList = ({
                                     {laptop.videoCard}
                                 </li>
                                 <li>
-                                    {laptop.displaySize}
+                                    {laptop.displaySize} Inches
                                 </li>
                                 <li>
                                     {laptop.ramSize} {laptop.ramType}
                                 </li>
                             </ul>
-                            <h3 >{laptop.price} BGN</h3>
+                            <h3 className="small-ul-price">{laptop.price} BGN</h3>
                         </Link>
                     </article>
                 </li>

@@ -1,9 +1,11 @@
 const { Router } = require('express')
 const router = Router()
-const homeController = require('./controllers/homeController')
+const productController = require('./controllers/productController')
+const detailsController = require('./controllers/detailsController')
 
 
-router.use('/', homeController)
+router.use('/products', productController)
+router.use('/details', detailsController)
 
 
 

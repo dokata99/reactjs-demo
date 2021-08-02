@@ -87,3 +87,11 @@
     text-align: -webkit-match-parent;
     font-size: 0.93333em;
 }
+
+.small-ul-price{
+    transition: transform .2s;
+}
+.small-ul-price:hover{
+    transform: scale(1.2);
+    color: #b845ac;;
+}
